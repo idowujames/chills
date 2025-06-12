@@ -2,13 +2,17 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
     "tailwindcss": "^3.4.17"
   },
   "name": "the_chilling_brand",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./main_web_template/css/input.css -o ./main_web_template/dist/output.css --watch",
+    "build-css": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
+    "start": "live-server --port=3000 --host=localhost --no-browser",
+    "dev": "npm-run-all --parallel start build-css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
