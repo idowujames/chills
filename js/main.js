@@ -10,10 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
                 const headerHeight = document.querySelector('#mainHeader')?.offsetHeight || 0;
-                const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
                 
+                // Use smooth scrolling with custom timing function
                 window.scrollTo({
-                    top: targetPosition,
+                    top: offsetPosition,
                     behavior: 'smooth'
                 });
                 
@@ -23,8 +25,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     mobileNav.classList.add('hidden');
                     document.body.style.overflow = '';
                 }
+                
+                // Update URL without adding to history
+                history.pushState(null, null, targetId);
             }
         });
+    });
+    
+    // Add smooth scrolling to the entire document
+    document.documentElement.style.scrollBehavior = 'smooth';
+    
+    // Add will-change to elements that will be animated
+    const animatedElements = document.querySelectorAll('.scroll-animate');
+    animatedElements.forEach(el => {
+        el.style.willChange = 'opacity, transform';
     });
 
     // --- Mobile Menu Toggle ---
