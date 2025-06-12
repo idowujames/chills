@@ -1,0 +1,14 @@
+*.tmp      # all .tmp files
+*.txt
+#ignore all zip files
+*.zip
+#ignore all pdf files
+*.pdf
+#ignore all docx files
+*.docx
+#ignore all doc files
+*.doc
+#ignore all md files
+*.md
+
+reference_template/

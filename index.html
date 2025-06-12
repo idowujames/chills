@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music PR & Talent Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="css/career-development.css">
+    <style>
+        .pattern-bg {
+            background-image: radial-gradient(circle at center, rgba(212, 160, 23, 0.1) 0, transparent 50%);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-secondary text-white font-montserrat">
+    <header id="mainHeader" class="fixed w-full z-50 bg-secondary/90 backdrop-blur-sm">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="#home" class="block">
+                    <img src="Chills-brand-logo.png" alt="Chills Brand Logo" class="h-12">
+                </a>
+            </div>
+            <ul class="nav-links hidden md:flex space-x-8">
+                <li><a href="#home" class="text-white hover:text-mage-gold transition-colors">Home</a></li>
+                <li><a href="#about" class="text-white hover:text-mage-gold transition-colors">About</a></li>
+                <li><a href="#services" class="text-white hover:text-mage-gold transition-colors">Services</a></li>
+                <li><a href="artists.html" class="text-white hover:text-mage-gold transition-colors">Artists</a></li>
+                <li><a href="#projects" class="text-white hover:text-mage-gold transition-colors">Projects</a></li>
+                <li><a href="#contact" class="text-white hover:text-mage-gold transition-colors">Contact</a></li>
+            </ul>
+            <div class="mobile-nav-toggle md:hidden">
+                <span class="icon menu-icon text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="4" x2="20" y1="12" y2="12"/>
+                        <line x1="4" x2="20" y1="6" y2="6"/>
+                        <line x1="4" x2="20" y1="18" y2="18"/>
+                    </svg>
+                </span>
+            </div>
+        </nav>
+        <div class="mobile-nav-sheet fixed inset-0 bg-secondary/95 hidden">
+            <div class="container mx-auto px-4 py-8">
+                <div class="close-nav-toggle absolute top-4 right-4 text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </div>
+                <ul class="space-y-6 mt-12">
+                    <li><a href="#home" class="text-white hover:text-mage-gold transition-colors text-xl">Home</a></li>
+                    <li><a href="#about" class="text-white hover:text-mage-gold transition-colors text-xl">About</a></li>
+                    <li><a href="#services" class="text-white hover:text-mage-gold transition-colors text-xl">Services</a></li>
+                    <li><a href="artists.html" class="text-white hover:text-mage-gold transition-colors text-xl">Artists</a></li>
+                    <li><a href="#projects" class="text-white hover:text-mage-gold transition-colors text-xl">Projects</a></li>
+                    <li><a href="#contact" class="text-white hover:text-mage-gold transition-colors text-xl">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <!-- Animated Background -->
+            <div class="hero-animated-bg"></div>
+            
+            <!-- Particle.js Container -->
+            <div id="particles-js"></div>
+            
+            <!-- Interactive Overlay -->
+            <div class="hero-overlay"></div>
+            
+            <!-- Main Content -->
+            <div class="hero-content-container">
+                <div class="hero-content-inner">
+                    <h1 id="animatedHeadline">
+                        <span class="line1">
+                            <span class="char">M</span>
+                            <span class="char">u</span>
+                            <span class="char">s</span>
+                            <span class="char">i</span>
+                            <span class="char">c</span>
+                            <span class="char">&nbsp;</span>
+                            <span class="char">P</span>
+                            <span class="char">R</span>
+                            <span class="char">&nbsp;</span>
+                            <span class="char">&</span>
+                            <span class="char">&nbsp;</span>
+                            <span class="char">T</span>
+                            <span class="char">a</span>
+                            <span class="char">l</span>
+                            <span class="char">e</span>
+                            <span class="char">n</span>
+                            <span class="char">t</span>
+                        </span>
+                        <span class="line2">
+                            <span class="word-wrapper"><span class="text-gradient">Management</span></span>
+                        </span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        Welcome to Chills Brand, where visionary talent meets unparalleled industry expertise. Whether you're an emerging artist, a record label, or an event promoter, we offer tailored solutions to amplify your impact.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn-primary">View Clients</button>
+                        <button class="btn-outline">Get In Touch</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <a href="#about" class="hero-chevron-down" aria-label="Scroll down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </a>
+        </section>
+
+        <!-- <div class="section-divider h-px bg-gradient-to-r from-transparent via-mage-gold to-transparent"></div> -->
+
+        <section id="about" class="relative overflow-hidden py-24 bg-gradient-to-br from-primary to-secondary">
+            <!-- Animated Background Elements -->
+            <div class="absolute inset-0 overflow-hidden">
+                <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,160,23,0.1)_0%,transparent_70%)] animate-pulse"></div>
+                <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNENEEwMTciIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0YzAtMS4xLjktMiAyLTJzMiAuOSAyIDItLjkgMi0yIDItMi0uOS0yLTJ6Ii8+PC9nPjwvZz48L3N2Zz4=')]"></div>
+            </div>
+
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+                    <!-- Image Column -->
+                    <div class="relative group scroll-animate" data-animate="fade">
+                        <div class="relative z-10 p-6 bg-gradient-to-br from-mage-gold/5 to-transparent rounded-xl border border-mage-gold/10 hover:border-mage-gold/30 transition-all duration-300 hover:-translate-y-1">
+                            <div class="overflow-hidden rounded-lg">
+                                <img 
+                                    src="chilling.png" 
+                                    alt="Tunde Chilin - Chills Brand" 
+                                    class="w-full h-auto rounded-lg transform transition-transform duration-300 group-hover:scale-105"
+                                    loading="lazy"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Column -->
+                    <div class="relative" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                        <div class="relative z-10">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight scroll-animate" data-animate="slide-up">
+                                Meet Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-mage-gold to-yellow-300">Visionary</span> Manager
+                            </h2>
+                            <h3 class="text-2xl md:text-3xl font-semibold text-mage-gold mb-6 scroll-animate" data-animate="slide-up">Tunde Chilin</h3>
+                            <div class="prose prose-invert max-w-none mb-8">
+                                <p class="text-gray-300 leading-relaxed mb-6 scroll-animate" data-animate="fade">
+                                    Tunde is more than an executive; he is a dedicated architect of success within the Nigerian and international music scenes. With a career spanning over half a decade, Tunde has cultivated a versatile skill set, excelling across Music PR, Tour Management, Talent Management, and holding pivotal executive positions within leading organizations such as TooXclusive, DSE Africa, and Azuri Music.
+                                </p>
+                                <p class="text-gray-300 leading-relaxed scroll-animate" data-animate="fade">
+                                    His journey is marked by a passionate commitment to transforming artistic visions into reality, creating lasting impact in the music industry through innovative strategies and unwavering dedication.
+                                </p>
+                            </div>
+                            
+                            <!-- Stats Grid -->
+                            <div class="grid grid-cols-2 gap-6 mb-8">
+                                <div class="stat-item p-6 bg-gradient-to-br from-mage-gold/5 to-transparent rounded-xl border border-mage-gold/10 hover:border-mage-gold/30 transition-all duration-300 hover:-translate-y-1 scroll-animate" data-animate="scale-in">
+                                    <div class="text-4xl font-bold text-mage-gold mb-2">20+</div>
+                                    <div class="text-gray-400 font-medium">Artists Managed</div>
+                                </div>
+                                <div class="stat-item p-6 bg-gradient-to-br from-mage-gold/5 to-transparent rounded-xl border border-mage-gold/10 hover:border-mage-gold/30 transition-all duration-300 hover:-translate-y-1 scroll-animate" data-animate="scale-in">
+                                    <div class="text-4xl font-bold text-mage-gold mb-2">10+</div>
+                                    <div class="text-gray-400 font-medium">Major Tours</div>
+                                </div>
+                                <div class="stat-item p-6 bg-gradient-to-br from-mage-gold/5 to-transparent rounded-xl border border-mage-gold/10 hover:border-mage-gold/30 transition-all duration-300 hover:-translate-y-1 scroll-animate" data-animate="scale-in">
+                                    <div class="text-4xl font-bold text-mage-gold mb-2">5+</div>
+                                    <div class="text-gray-400 font-medium">Years Experience</div>
+                                </div>
+                                <div class="stat-item p-6 bg-gradient-to-br from-mage-gold/5 to-transparent rounded-xl border border-mage-gold/10 hover:border-mage-gold/30 transition-all duration-300 hover:-translate-y-1 scroll-animate" data-animate="scale-in">
+                                    <div class="text-4xl font-bold text-mage-gold mb-2">15+</div>
+                                    <div class="text-gray-400 font-medium">Successful Campaigns</div>
+                                </div>
+                            </div>
+
+                            <!-- Call to Action -->
+                            <!-- <div class="flex flex-wrap gap-4 scroll-animate" data-animate="slide-up">
+                                <a href="#contact" class="btn-primary group relative overflow-hidden px-8 py-4 font-semibold rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-mage-gold/20">
+                                    <span class="relative z-10">Get in Touch</span>
+                                    <div class="absolute inset-0 bg-gradient-to-r from-mage-gold to-yellow-500 rounded-full transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
+                                </a>
+                                <a href="#" class="btn-outline group relative overflow-hidden px-8 py-4 font-semibold rounded-full border-2 border-mage-gold text-mage-gold hover:text-primary transition-all duration-300">
+                                    <span class="relative z-10">View Portfolio</span>
+                                    <div class="absolute inset-0 bg-mage-gold rounded-full transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
+                                </a>
+                            </div> -->
+                        </div>
+                        <div class="absolute -top-10 -left-10 w-40 h-40 bg-mage-gold/5 rounded-full filter blur-3xl -z-10"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Decorative Elements -->
+            <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-secondary to-transparent -z-10"></div>
+            <div class="absolute top-1/2 -right-20 w-64 h-64 bg-mage-gold/5 rounded-full filter blur-3xl -z-10"></div>
+        </section>
+
+        <!-- <div class="section-divider h-px bg-gradient-to-r from-transparent via-mage-gold to-transparent"></div> -->
+
+        <section id="services" class="py-20 relative overflow-hidden">
+            <div class="floating-shapes absolute inset-0 bg-gradient-radial from-mage-gold/10 to-transparent"></div>
+            <div class="services-container container mx-auto px-4 scroll-animate" data-animate="fade">
+                <div class="services-header text-center mb-16 scroll-animate" data-animate="slide-up">
+                    <h2 class="font-heading mb-6 text-5xl lg:text-6xl text-white tracking-6xl md:max-w-md mx-auto scroll-animate" data-animate="slide-up">Services</h2>
+                    <p class="text-lg text-gray-400 max-w-3xl mx-auto">
+                        Chills Brand provides strategic, integrated services designed to meet the diverse needs of artists, record labels, and event promoters.
+                    </p>
+                </div>
+
+                <div class="services-grid grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="service-card relative group scroll-animate" data-animate="scale-in">
+                        <div class="service-card-gradient-overlay absolute inset-0 bg-gradient-to-br from-mage-gold/20 to-transparent rounded-lg"></div>
+                        <div class="service-card-content relative p-6 bg-secondary/50 backdrop-blur-sm rounded-lg border border-mage-gold/20 group-hover:border-mage-gold transition-colors">
+                            <div class="service-icon-wrapper text-mage-gold mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M11 17a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2"/><path d="M13 17a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"/><path d="M3 14s.89-1.66 2-2.43"/><path d="M21 14s-.89-1.66-2-2.43"/><path d="m12 12.5.38-.19a2.24 2.24 0 0 0 1.24-2.12V9a2 2 0 0 0-2-2H9.5a2 2 0 0 0-2 2v.19a2.24 2.24 0 0 0 1.24 2.12L9 12.5V16"/><path d="M15 9.5V7a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v2.5"/></svg></div>
+                            <h3 class="service-card-title text-xl font-bold mb-3">Music Promotion</h3>
+                            <p class="service-card-description text-gray-300">We craft compelling campaigns that spark buzz and drive engagement, fueling hits like T-Classic's "Fall in Love" (50M+ streams).</p>
+                        </div>
+                    </div>
+                    <div class="service-card relative group scroll-animate" data-animate="scale-in">
+                        <div class="service-card-gradient-overlay absolute inset-0 bg-gradient-to-br from-mage-gold/20 to-transparent rounded-lg"></div>
+                        <div class="service-card-content relative p-6 bg-secondary/50 backdrop-blur-sm rounded-lg border border-mage-gold/20 group-hover:border-mage-gold transition-colors">
+                            <div class="service-icon-wrapper text-mage-gold mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg></div>
+                            <h3 class="service-card-title text-xl font-bold mb-3">Tour Management</h3>
+                            <p class="service-card-description text-gray-300">Flawless logistics for unforgettable performances. We handle travel, venues, and local partnerships with unmatched precision.</p>
+                        </div>
+                    </div>
+                    <div class="service-card relative group scroll-animate" data-animate="scale-in">
+                        <div class="service-card-gradient-overlay absolute inset-0 bg-gradient-to-br from-mage-gold/20 to-transparent rounded-lg"></div>
+                        <div class="service-card-content relative p-6 bg-secondary/50 backdrop-blur-sm rounded-lg border border-mage-gold/20 group-hover:border-mage-gold transition-colors">
+                            <div class="service-icon-wrapper text-mage-gold mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg></div>
+                            <h3 class="service-card-title text-xl font-bold mb-3">Talent Management</h3>
+                            <p class="service-card-description text-gray-300">Through The Chills Brand, we nurture careers with personalized mentorship, guiding artists like Tona and Rúu to success.</p>
+                        </div>
+                    </div>
+                    <div class="service-card relative group scroll-animate" data-animate="scale-in">
+                        <div class="service-card-gradient-overlay absolute inset-0 bg-gradient-to-br from-mage-gold/20 to-transparent rounded-lg"></div>
+                        <div class="service-card-content relative p-6 bg-secondary/50 backdrop-blur-sm rounded-lg border border-mage-gold/20 group-hover:border-mage-gold transition-colors">
+                            <div class="service-icon-wrapper text-mage-gold mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+                            <h3 class="service-card-title text-xl font-bold mb-3">Executive Consulting</h3>
+                            <p class="service-card-description text-gray-300">We offer strategic guidance in operations, marketing, and talent acquisition, steering companies towards growth and expansion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Development Section -->
+        <section class="career-development-section">
+            <div class="career-development-grid">
+                <div class="career-development-content">
+                    <div class="career-title-icon-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="career-title-icon">
+                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                            <path d="M4 22h16"/>
+                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+                        </svg>
+                        <h3 class="career-development-title">Career Development</h3>
+                    </div>
+                    <p class="career-development-description">
+                        As the founder of The Chills Brand, Tunde is deeply committed to nurturing the careers and artistic visions of his clients, guiding them towards long-term success and fulfillment. We provide a comprehensive suite of services aimed at maximizing artist potential and industry impact. Our career development program includes
+                    </p>
+                    <ul class="career-features-list">
+                        <li class="feature-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-check-icon">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Strategic career roadmapping
+                        </li>
+                        <li class="feature-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-check-icon">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Industry relationship building
+                        </li>
+                        <li class="feature-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-check-icon">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Brand identity development
+                        </li>
+                        <li class="feature-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-check-icon">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Revenue stream optimization
+                        </li>
+                    </ul>
+                </div>
+                <div class="career-development-image-wrapper scroll-animate" data-animate="fade">
+                    <img src="afrobeats-2.webp" alt="Professional Recording Studio" class="career-development-image" loading="lazy" width="800" height="600" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Artists Section -->
+        <section id="artists" class="py-20 relative overflow-hidden">
+            <div class="artists-container container mx-auto px-4 scroll-animate relative">
+                <div class="artists-header text-center mb-16">
+                    <h2 class="font-heading mb-6 text-5xl lg:text-6xl text-white tracking-6xl md:max-w-md mx-auto">Client Portfolio</h2>
+                    <p class="artists-subtitle text-gray-300 max-w-2xl mx-auto">
+                        Meet the exceptional talents we're proud to have collaborated with across multiple genres and markets
+                    </p>
+                </div>
+
+                <div class="artists-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="artist-card group overflow-hidden rounded-xl transition-all duration-500 transform hover:-translate-y-2 h-full flex flex-col bg-secondary/80 border border-white/10 hover:border-mage-gold/30 scroll-animate" data-animate="scale-in">
+                        <div class="relative overflow-hidden" style="padding-bottom: 75%;">
+                            <img src="images/T-classic.png" alt="T-Classic" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" width="400" height="400">
+                            <div class="absolute top-4 right-4">
+                                <span class="bg-mage-gold/90 text-white text-xs font-semibold px-3 py-1 rounded-full">Afrobeats</span>
+                            </div>
+                        </div>
+                        <div class="flex-1 p-6 flex flex-col">
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-white">T-Classic</h3>
+                                <p class="text-gray-300 mb-4">Breakout hit 'Fall in Love' - major streaming success</p>
+                            </div>
+                            <div class="links-section opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                <div class="flex justify-between items-center mt-4 pt-4 border-t border-white/10">
+                                    <div class="flex space-x-3">
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <span class="text-sm font-semibold text-mage-gold">50M+ streams</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artist-card group overflow-hidden rounded-xl transition-all duration-500 transform hover:-translate-y-2 h-full flex flex-col bg-secondary/80 border border-white/10 hover:border-mage-gold/30 scroll-animate" data-animate="scale-in">
+                        <div class="relative overflow-hidden" style="padding-bottom: 75%;">
+                            <img src="images/Spyro.png" alt="Spyro" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute top-4 right-4">
+                                <span class="bg-mage-gold/90 text-white text-xs font-semibold px-3 py-1 rounded-full">Afrobeats</span>
+                            </div>
+                        </div>
+                        <div class="flex-1 p-6 flex flex-col">
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-white">Spyro</h3>
+                                <p class="text-gray-300 mb-4">Multiple breakout songs and UK tour success</p>
+                            </div>
+                            <div class="links-section opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                <div class="flex justify-between items-center mt-4 pt-4 border-t border-white/10">
+                                    <div class="flex space-x-3">
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <span class="text-sm font-semibold text-mage-gold">40M+ streams</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artist-card group overflow-hidden rounded-xl transition-all duration-500 transform hover:-translate-y-2 h-full flex flex-col bg-secondary/80 border border-white/10 hover:border-mage-gold/30 scroll-animate" data-animate="scale-in">
+                        <div class="relative overflow-hidden" style="padding-bottom: 75%;">
+                            <img src="images/Odumodu.png" alt="Odumodu Black" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute top-4 right-4">
+                                <span class="bg-mage-gold/90 text-white text-xs font-semibold px-3 py-1 rounded-full">Hip-Hop/Rap</span>
+                            </div>
+                        </div>
+                        <div class="flex-1 p-6 flex flex-col">
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-white">Odumodu Black</h3>
+                                <p class="text-gray-300 mb-4">Tour Manager 2023</p>
+                            </div>
+                            <div class="links-section opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                <div class="flex justify-between items-center mt-4 pt-4 border-t border-white/10">
+                                    <div class="flex space-x-3">
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <span class="text-sm font-semibold text-mage-gold">30M+ streams</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artist-card group overflow-hidden rounded-xl transition-all duration-500 transform hover:-translate-y-2 h-full flex flex-col bg-secondary/80 border border-white/10 hover:border-mage-gold/30 scroll-animate" data-animate="scale-in">
+                        <div class="relative overflow-hidden" style="padding-bottom: 75%;">
+                            <img src="images/Teni.png" alt="T-Classic" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute top-4 right-4">
+                                <span class="bg-mage-gold/90 text-white text-xs font-semibold px-3 py-1 rounded-full">Afropop</span>
+                            </div>
+                        </div>
+                        <div class="flex-1 p-6 flex flex-col">
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-white">Teni</h3>
+                                <p class="text-gray-300 mb-4">Headline shows across Nigeria and UK tours</p>
+                            </div>
+                            <div class="links-section opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                <div class="flex justify-between items-center mt-4 pt-4 border-t border-white/10">
+                                    <div class="flex space-x-3">
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <span class="text-sm font-semibold text-mage-gold">100M+ streams</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artist-card group overflow-hidden rounded-xl transition-all duration-500 transform hover:-translate-y-2 h-full flex flex-col bg-secondary/80 border border-white/10 hover:border-mage-gold/30 scroll-animate" data-animate="scale-in">
+                        <div class="relative overflow-hidden" style="padding-bottom: 75%;">
+                            <img src="images/AV.png" alt="AV" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute top-4 right-4">
+                                <span class="bg-mage-gold/90 text-white text-xs font-semibold px-3 py-1 rounded-full">Afrobeats/Hip-Hop</span>
+                            </div>
+                        </div>
+                        <div class="flex-1 p-6 flex flex-col">
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-white">Kida Kudz</h3>
+                                <p class="text-gray-300 mb-4">Successful headline show in Ibadan and UK presence</p>
+                            </div>
+                            <div class="links-section opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                <div class="flex justify-between items-center mt-4 pt-4 border-t border-white/10">
+                                    <div class="flex space-x-3">
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <span class="text-sm font-semibold text-mage-gold">25M+ streams</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artist-card group overflow-hidden rounded-xl transition-all duration-500 transform hover:-translate-y-2 h-full flex flex-col bg-secondary/80 border border-white/10 hover:border-mage-gold/30 scroll-animate" data-animate="scale-in">
+                        <div class="relative overflow-hidden" style="padding-bottom: 75%;">
+                            <img src="images/Victor AD.png" alt="Victor AD" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <div class="absolute top-4 right-4">
+                                <span class="bg-mage-gold/90 text-white text-xs font-semibold px-3 py-1 rounded-full">Afrobeats</span>
+                            </div>
+                        </div>
+                        <div class="flex-1 p-6 flex flex-col">
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold mb-2 text-white">Victor AD</h3>
+                                <p class="text-gray-300 mb-4">Headline show in Warri and growing fanbase</p>
+                            </div>
+                            <div class="links-section opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                <div class="flex justify-between items-center mt-4 pt-4 border-t border-white/10">
+                                    <div class="flex space-x-3">
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="text-gray-400 hover:text-mage-gold transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <span class="text-sm font-semibold text-mage-gold">35M+ streams</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-all-artists-container mt-12 text-center">
+                    <a href="artists.html" class="btn-outline inline-block border-2 border-mage-gold text-mage-gold px-8 py-3 rounded-full font-semibold hover:bg-mage-gold hover:text-white transition-colors">
+                        View Full Roster
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="section-divider h-px bg-gradient-to-r from-transparent via-mage-gold to-transparent"></div> -->
+
+        <section id="projects" class="py-24 relative bg-secondary overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-secondary via-black to-secondary opacity-80"></div>
+            <div class="absolute inset-0 pattern-bg opacity-5"></div>
+            
+            <div class="container mx-auto px-4 relative z-10 scroll-animate">
+                <div class="projects-header text-center mb-20">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Impactful Projects</h2>
+                    <p class="text-lg text-gray-400 max-w-3xl mx-auto">
+                        Key campaigns and tours that have shaped careers and created lasting impact in the Nigerian music industry.
+                    </p>
+                </div>
+                
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+                    
+                    <!-- Project Card 1: T-Classic -->
+                    <div class="group project-card bg-black/20 p-6 rounded-2xl shadow-2xl border border-white/10 transition-all duration-300 hover:border-mage-gold/50 hover:shadow-mage-gold/10 transform hover:-translate-y-2 scroll-animate" data-animate="scale-in">
+                        <div class="project-image-container overflow-hidden rounded-lg mb-5">
+                            <img src="projects-2/T-classic-fall.png" alt="T-Classic Project" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="text-2xl font-bold mb-2 text-mage-gold">T-Classic - "Fall In Love"</h3>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">Music PR</span>
+                                <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">Digital Strategy</span>
+                            </div>
+                            <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+                                Orchestrated a multi-faceted PR campaign generating over <strong>50 million streams</strong> and solidifying T-Classic's position as a rising Afrobeats star.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2: Spyro -->
+                    <div class="group project-card bg-black/20 p-6 rounded-2xl shadow-2xl border border-white/10 transition-all duration-300 hover:border-mage-gold/50 hover:shadow-mage-gold/10 transform hover:-translate-y-2 scroll-animate" data-animate="scale-in">
+                        <div class="project-image-container overflow-hidden rounded-lg mb-5">
+                            <img src="projects/Spyro - only-fine-girl.png" alt="Spyro Project" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="text-2xl font-bold mb-2 text-mage-gold">Spyro's Breakout Single</h3>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">Music PR Campaign</span>
+                                <!-- <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">Logistics</span> -->
+                            </div>
+                            <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+                                Strategic media placements and innovative marketing strategies that propelled Spyro's breakout songs to critical acclaim and fan recognition.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 3: Placeholder -->
+                    <div class="group project-card bg-black/20 p-6 rounded-2xl shadow-2xl border border-white/10 transition-all duration-300 hover:border-mage-gold/50 hover:shadow-mage-gold/10 transform hover:-translate-y-2 scroll-animate" data-animate="scale-in">
+                        <div class="project-image-container overflow-hidden rounded-lg mb-5">
+                            <img src="projects/Kidkudz-homecoming.png" alt="Kida Kudz Homecoming Concert" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="text-2xl font-bold mb-2 text-mage-gold">Kida Kudz Homecoming Concert</h3>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">Tour Management</span>
+                            </div>
+                            <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+                                Complete tour management for Kida Kudz's headline show in Ibadan, coordinating logistics and securing sponsorships for a memorable event.
+                            </p>
+                        </div>
+                    </div>
+
+                     <!-- Project Card 4: Placeholder -->
+                     <div class="group project-card bg-black/20 p-6 rounded-2xl shadow-2xl border border-white/10 transition-all duration-300 hover:border-mage-gold/50 hover:shadow-mage-gold/10 transform hover:-translate-y-2 scroll-animate" data-animate="scale-in">
+                        <div class="project-image-container overflow-hidden rounded-lg mb-5">
+                            <img src="projects/Teni-homecoming.png" alt="Teni's Homecoming" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="text-2xl font-bold mb-2 text-mage-gold">Teni's Abuja Headline Show</h3>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">Tour Management</span>
+                            </div>
+                            <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+                                Seamless tour management ensuring exceptional logistics and unforgettable performancesfor Nigeria's beloved star.
+                            </p>
+                        </div>
+                    </div>
+
+                     <!-- Project Card 5: Placeholder -->
+                     <div class="group project-card bg-black/20 p-6 rounded-2xl shadow-2xl border border-white/10 transition-all duration-300 hover:border-mage-gold/50 hover:shadow-mage-gold/10 transform hover:-translate-y-2 scroll-animate" data-animate="scale-in">
+                        <div class="project-image-container overflow-hidden rounded-lg mb-5">
+                            <img src="projects/AV-big-boys-thugs.png" alt="Placeholder Project" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="text-2xl font-bold mb-2 text-mage-gold">Baby Boy AV's 'Big Thug Boys'</h3>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">PR Campaign</span>
+                                <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">Brand Strategy</span>
+                            </div>
+                            <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+                                Instrumental PR campaign leveraging influencer partnerships and engaging content creation to establish Baby Boy AV as a rising talent.
+                            </p>
+                        </div>
+                    </div>
+
+                     <!-- Project Card 6: Placeholder -->
+                     <div class="group project-card bg-black/20 p-6 rounded-2xl shadow-2xl border border-white/10 transition-all duration-300 hover:border-mage-gold/50 hover:shadow-mage-gold/10 transform hover:-translate-y-2 scroll-animate" data-animate="scale-in">
+                        <div class="project-image-container overflow-hidden rounded-lg mb-5">
+                            <img src="projects/Victor-Ad-Homecoming.png" alt="Victor AD's Warri Homecoming" class="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="text-2xl font-bold mb-2 text-mage-gold">Victor AD's Warri Homecoming</h3>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="tag bg-mage-gold/10 text-mage-gold px-3 py-1 rounded-full text-xs font-semibold border border-mage-gold/20">Tour Management</span>
+                            </div>
+                            <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+                                Tour management for Victor AD's homecoming celebration in Warri, showcasing meticulous attention to detail and ensuring it was a memorable event for all involved.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="section-divider h-px bg-gradient-to-r from-transparent via-mage-gold to-transparent"></div> -->
+
+        <section id="contact" class="py-20 overflow-hidden">
+            <div class="contact-container container mx-auto px-4 scroll-animate">
+                <div class="contact-header text-center mb-16">
+                    <h2 class="contact-title text-4xl font-bold mb-4">Get In Touch</h2>
+                    <p class="contact-subtitle text-gray-300 max-w-2xl mx-auto">
+                        Ready to elevate your music career? Contact us to learn how we can help you achieve your goals.
+                    </p>
+                </div>
+                <div class="contact-content-wrapper grid md:grid-cols-2 gap-12 items-center">
+                    <div class="contact-form-wrapper">
+                        <form action="#" method="POST" class="contact-form space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-300">Name</label>
+                                <input type="text" name="name" id="name" autocomplete="name" class="mt-1 block w-full px-4 py-3 bg-secondary/80 border border-mage-gold/30 rounded-md shadow-sm focus:outline-none focus:ring-mage-gold focus:border-mage-gold sm:text-sm text-white">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+                                <input type="email" name="email" id="email" autocomplete="email" class="mt-1 block w-full px-4 py-3 bg-secondary/80 border border-mage-gold/30 rounded-md shadow-sm focus:outline-none focus:ring-mage-gold focus:border-mage-gold sm:text-sm text-white">
+                            </div>
+                             <div>
+                                <label for="subject" class="block text-sm font-medium text-gray-300">Subject</label>
+                                <input type="text" name="subject" id="subject" class="mt-1 block w-full px-4 py-3 bg-secondary/80 border border-mage-gold/30 rounded-md shadow-sm focus:outline-none focus:ring-mage-gold focus:border-mage-gold sm:text-sm text-white">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
+                                <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-4 py-3 bg-secondary/80 border border-mage-gold/30 rounded-md shadow-sm focus:outline-none focus:ring-mage-gold focus:border-mage-gold sm:text-sm text-white"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-mage-gold hover:bg-mage-gold/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-mage-gold">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info space-y-8">
+                        <div class="contact-info-item flex items-start space-x-4">
+                            <div class="contact-icon text-mage-gold mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold">Location</h4>
+                                <p class="text-gray-300">63, Simpson Street, Lagos Island, Lagos</p>
+                            </div>
+                        </div>
+                         <div class="contact-info-item flex items-start space-x-4">
+                            <div class="contact-icon text-mage-gold mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold">Phone</h4>
+                                <p class="text-gray-300">+234 802 260 9239 | +44 790 037 8095</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item flex items-start space-x-4">
+                             <div class="contact-icon text-mage-gold mt-1">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold">Email</h4>
+                                <p class="text-gray-300">tunde@chillsbrand.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-secondary/50 border-t border-mage-gold/20 py-8">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                    <div class="footer-logo">
+                        <img src="Chills-brand-logo.png" alt="Chills Brand Logo" class="h-10">
+                    </div>
+                    <div class="footer-links text-center">
+                        <a href="#home" class="text-gray-400 hover:text-white mx-2">Home</a>
+                        <a href="#about" class="text-gray-400 hover:text-white mx-2">About</a>
+                        <a href="#services" class="text-gray-400 hover:text-white mx-2">Services</a>
+                        <a href="artists.html" class="text-gray-400 hover:text-white mx-2">Artists</a>
+                        <a href="#projects" class="text-gray-400 hover:text-white mx-2">Projects</a>
+                        <a href="#contact" class="text-gray-400 hover:text-white mx-2">Contact</a>
+                    </div>
+                    <div class="footer-social-links flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                    </div>
+                </div>
+                <div class="text-center text-gray-500 mt-8 text-sm">
+                    &copy; 2024 Chills Brand. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Particle.js Library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="js/hero.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Artist Roster - Chills Brand</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-secondary text-white font-montserrat">
+    <header id="mainHeader" class="fixed w-full z-50 bg-secondary/90 backdrop-blur-sm">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="index.html#home" class="block">
+                    <img src="Chills-brand-logo.png" alt="Chills Brand Logo" class="h-12">
+                </a>
+            </div>
+            <ul class="nav-links hidden md:flex space-x-8">
+                <li><a href="index.html#home" class="text-white hover:text-mage-gold transition-colors">Home</a></li>
+                <li><a href="index.html#about" class="text-white hover:text-mage-gold transition-colors">About</a></li>
+                <li><a href="index.html#services" class="text-white hover:text-mage-gold transition-colors">Services</a></li>
+                <li><a href="artists.html" class="text-mage-gold font-bold transition-colors">Artists</a></li>
+                <li><a href="index.html#projects" class="text-white hover:text-mage-gold transition-colors">Projects</a></li>
+                <li><a href="index.html#contact" class="text-white hover:text-mage-gold transition-colors">Contact</a></li>
+            </ul>
+            <div class="mobile-nav-toggle md:hidden">
+                <span class="icon menu-icon text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="4" x2="20" y1="12" y2="12"/>
+                        <line x1="4" x2="20" y1="6" y2="6"/>
+                        <line x1="4" x2="20" y1="18" y2="18"/>
+                    </svg>
+                </span>
+            </div>
+        </nav>
+        <div class="mobile-nav-sheet fixed inset-0 bg-secondary/95 hidden">
+            <div class="container mx-auto px-4 py-8">
+                <div class="close-nav-toggle absolute top-4 right-4 text-white">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </div>
+                <ul class="space-y-6 mt-12">
+                    <li><a href="index.html#home" class="text-white hover:text-mage-gold transition-colors text-xl">Home</a></li>
+                    <li><a href="index.html#about" class="text-white hover:text-mage-gold transition-colors text-xl">About</a></li>
+                    <li><a href="index.html#services" class="text-white hover:text-mage-gold transition-colors text-xl">Services</a></li>
+                    <li><a href="artists.html" class="text-mage-gold font-bold transition-colors text-xl">Artists</a></li>
+                    <li><a href="index.html#projects" class="text-white hover:text-mage-gold transition-colors text-xl">Projects</a></li>
+                    <li><a href="index.html#contact" class="text-white hover:text-mage-gold transition-colors text-xl">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="pt-24">
+        <section id="artists" class="py-20 relative">
+            <div class="geometric-bg absolute inset-0 bg-gradient-radial from-mage-gold/10 to-transparent"></div>
+            <div class="artists-container container mx-auto px-4">
+                <div class="artists-header text-center mb-16">
+                    <h2 class="artists-title text-4xl font-bold mb-4">Full Artist Roster</h2>
+                    <p class="artists-subtitle text-gray-300 max-w-2xl mx-auto">
+                        Explore all the exceptional talents we've worked with across genres and markets.
+                    </p>
+                </div>
+                <div class="artists-grid grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                    <!-- Artist Card 1: T-Classic -->
+                    <div class="artist-card bg-secondary/50 backdrop-blur-sm rounded-lg overflow-hidden border border-mage-gold/20 hover:border-mage-gold transition-all duration-300 transform hover:-translate-y-2 group">
+                        <div class="artist-image-wrapper relative">
+                            <img src="images/T-classic.png" alt="T-Classic" class="artist-image w-full h-56 object-cover" />
+                            <div class="artist-image-gradient-overlay absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                            <div class="artist-genre-badge absolute top-2 right-2 bg-mage-gold/80 text-white text-xs font-semibold px-2 py-1 rounded-full">Afrobeats</div>
+                        </div>
+                        <div class="artist-card-content p-4">
+                            <h3 class="artist-name text-xl font-bold mb-1">T-Classic</h3>
+                            <p class="artist-achievement text-gray-400 text-sm mb-4">Breakout hit 'Fall in Love' - major streaming success</p>
+                            <div class="artist-card-footer flex justify-between items-center">
+                                <div class="artist-social-links flex space-x-2">
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></a>
+                                </div>
+                                <span class="artist-streams text-xs font-bold text-mage-gold">50M+ streams</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artist Card 2: Spyro -->
+                    <div class="artist-card bg-secondary/50 backdrop-blur-sm rounded-lg overflow-hidden border border-mage-gold/20 hover:border-mage-gold transition-all duration-300 transform hover:-translate-y-2 group">
+                        <div class="artist-image-wrapper relative">
+                            <img src="images/Spyro.png" alt="Spyro" class="artist-image w-full h-56 object-cover" />
+                            <div class="artist-image-gradient-overlay absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                            <div class="artist-genre-badge absolute top-2 right-2 bg-mage-gold/80 text-white text-xs font-semibold px-2 py-1 rounded-full">Afrobeats</div>
+                        </div>
+                        <div class="artist-card-content p-4">
+                            <h3 class="artist-name text-xl font-bold mb-1">Spyro</h3>
+                            <p class="artist-achievement text-gray-400 text-sm mb-4">Multiple breakout songs and UK tour success</p>
+                            <div class="artist-card-footer flex justify-between items-center">
+                                <div class="artist-social-links flex space-x-2">
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></a>
+                                </div>
+                                <span class="artist-streams text-xs font-bold text-mage-gold">40M+ streams</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artist Card 3: Baby Boy AV -->
+                    <div class="artist-card bg-secondary/50 backdrop-blur-sm rounded-lg overflow-hidden border border-mage-gold/20 hover:border-mage-gold transition-all duration-300 transform hover:-translate-y-2 group">
+                        <div class="artist-image-wrapper relative">
+                            <img src="images/Odumodu.png" alt="Baby Boy AV" class="artist-image w-full h-56 object-cover" />
+                            <div class="artist-image-gradient-overlay absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                            <div class="artist-genre-badge absolute top-2 right-2 bg-mage-gold/80 text-white text-xs font-semibold px-2 py-1 rounded-full">Hip-Hop/Rap</div>
+                        </div>
+                        <div class="artist-card-content p-4">
+                            <h3 class="artist-name text-xl font-bold mb-1">Odumodu Black</h3>
+                            <p class="artist-achievement text-gray-400 text-sm mb-4">Tour Manager 2023</p>
+                            <div class="artist-card-footer flex justify-between items-center">
+                                <div class="artist-social-links flex space-x-2">
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></a>
+                                </div>
+                                <span class="artist-streams text-xs font-bold text-mage-gold">30M+ streams</span>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Artist Card 4: Teni -->
+                     <div class="artist-card bg-secondary/50 backdrop-blur-sm rounded-lg overflow-hidden border border-mage-gold/20 hover:border-mage-gold transition-all duration-300 transform hover:-translate-y-2 group">
+                        <div class="artist-image-wrapper relative">
+                            <img src="images/Teni.png" alt="Teni" class="artist-image w-full h-56 object-cover" />
+                            <div class="artist-image-gradient-overlay absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                            <div class="artist-genre-badge absolute top-2 right-2 bg-mage-gold/80 text-white text-xs font-semibold px-2 py-1 rounded-full">Afropop</div>
+                        </div>
+                        <div class="artist-card-content p-4">
+                            <h3 class="artist-name text-xl font-bold mb-1">Teni</h3>
+                            <p class="artist-achievement text-gray-400 text-sm mb-4">Headline shows across Nigeria and UK tours</p>
+                            <div class="artist-card-footer flex justify-between items-center">
+                                <div class="artist-social-links flex space-x-2">
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></a>
+                                </div>
+                                <span class="artist-streams text-xs font-bold text-mage-gold">100M+ streams</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artist Card 5: Kida Kudz -->
+                    <div class="artist-card bg-secondary/50 backdrop-blur-sm rounded-lg overflow-hidden border border-mage-gold/20 hover:border-mage-gold transition-all duration-300 transform hover:-translate-y-2 group">
+                        <div class="artist-image-wrapper relative">
+                            <img src="images/AV.png" alt="Kida Kudz" class="artist-image w-full h-56 object-cover" />
+                            <div class="artist-image-gradient-overlay absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                            <div class="artist-genre-badge absolute top-2 right-2 bg-mage-gold/80 text-white text-xs font-semibold px-2 py-1 rounded-full">Afrobeats/Hip-Hop</div>
+                        </div>
+                        <div class="artist-card-content p-4">
+                            <h3 class="artist-name text-xl font-bold mb-1">Kida Kudz</h3>
+                            <p class="artist-achievement text-gray-400 text-sm mb-4">Successful headline show in Ibadan and UK presence</p>
+                            <div class="artist-card-footer flex justify-between items-center">
+                                <div class="artist-social-links flex space-x-2">
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></a>
+                                </div>
+                                <span class="artist-streams text-xs font-bold text-mage-gold">25M+ streams</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artist Card 6: Victor AD -->
+                    <div class="artist-card bg-secondary/50 backdrop-blur-sm rounded-lg overflow-hidden border border-mage-gold/20 hover:border-mage-gold transition-all duration-300 transform hover:-translate-y-2 group">
+                        <div class="artist-image-wrapper relative">
+                            <img src="images/Victor AD.png" alt="Victor AD" class="artist-image w-full h-56 object-cover" />
+                            <div class="artist-image-gradient-overlay absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                            <div class="artist-genre-badge absolute top-2 right-2 bg-mage-gold/80 text-white text-xs font-semibold px-2 py-1 rounded-full">Afrobeats</div>
+                        </div>
+                        <div class="artist-card-content p-4">
+                            <h3 class="artist-name text-xl font-bold mb-1">Victor AD</h3>
+                            <p class="artist-achievement text-gray-400 text-sm mb-4">Headline show in Warri and growing fanbase</p>
+                            <div class="artist-card-footer flex justify-between items-center">
+                                <div class="artist-social-links flex space-x-2">
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                                    <a href="#" class="text-gray-400 hover:text-mage-gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></a>
+                                </div>
+                                <span class="artist-streams text-xs font-bold text-mage-gold">35M+ streams</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more artist cards below as needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-col footer-col-1">
+                    <div class="logo footer-logo">
+                        <span class="icon music-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 18V5l12-2v13"/>
+                                <circle cx="6" cy="18" r="3"/>
+                                <circle cx="18" cy="16" r="3"/>
+                            </svg>
+                        </span>
+                        CHILLS
+                    </div>
+                    <p class="footer-description">
+                        Professional music PR, tour management, and talent development services dedicated to elevating artists in the Nigerian music industry.
+                    </p>
+                </div>
+                <div class="footer-col footer-col-2">
+                    <h4 class="footer-col-title">Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html#services">Artist Management</a></li>
+                        <li><a href="index.html#services">Career Development</a></li>
+                        <li><a href="index.html#services">Brand Partnerships</a></li>
+                        <li><a href="index.html#services">Tour Management</a></li>
+                        <li><a href="index.html#services">Music Licensing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col-3">
+                    <h4 class="footer-col-title">Contact</h4>
+                    <ul class="footer-contact-list">
+                        <li>Lagos, Nigeria</li>
+                        <li>London, UK</li>
+                        <li>+234 (0) 803-407-9153</li>
+                        <li>tunde@chillsbrand.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-separator"></div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2024 Chills Brand. All rights reserved.</p>
+                <div class="footer-legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js" defer></script>
+</body>
+</html> 
